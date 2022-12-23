@@ -1,0 +1,95 @@
+body {
+    margin: 0%;
+}
+
+li, a, button {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+li, a {
+    color: black;
+}
+
+button {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 7%;
+    background-color: rgb(255, 193, 23);
+    border-bottom: 1px solid black;
+}
+
+#logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+button {
+    padding: 9px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.sc-container {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 450px;
+    background-color: rgb(255, 193, 23);
+    border-bottom: 1px solid black;
+}
+
+
+
+.sc-left-container-left {
+    display: flex;
+    flex-direction: row;
+    padding-left: 175px;
+}
+
+.sc-h2 {
+    padding-right: 200px;
+}
+
+h2 {
+    margin-top: 50px;
+    font-size: 106px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: -3px;
+}
+
+h3 {
+    font-size: 24px;
+    flex-wrap: wrap;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(41, 41, 41, 1);
+    margin-bottom: 40px;
+}
+
+#sr-btn {
+  width: 200px;
+  font-size: 20px;
+}
+
+
+
+
