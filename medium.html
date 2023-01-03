@@ -5560,27 +5560,43 @@
 <Script>
 
 
+function changeHeader(){
+           
+window.addEventListener("scroll", function() {
+                if(window.scrollY > 375) { 
+                    document.querySelector("header").classList.add("nav-white");
+                    document.querySelector("header button").classList.add("btn-green");
+                } else {
+                    document.querySelector("header").classList.remove("nav-white");
+                    document.querySelector("header button").classList.remove("btn-green");
+                }
+            });
+        }
+
+
     
-    // M's Animation
-    const elements = document.querySelectorAll("g>g>g>g>g");
+// M's Animation
+const elements = document.querySelectorAll("g>g>g>g>g");
     
-    function toggleRandomElement() {
+function toggleRandomElement() {
     
-    // Generate a random index between 0 and the number of elements
-    const index = Math.floor(Math.random() * elements.length);
+// Generate a random index between 0 and the number of elements
+const index = Math.floor(Math.random() * elements.length);
     
-    // Select the element at the random index
-    const element = elements[index];
+// Select the element at the random index
+const element = elements[index];
   
-    // Toggle the display property of the element
-    if (element.style.display === 'none') {
-        element.style.display = 'block';
+// Toggle the display property of the element
+if (element.style.display === 'none') {
+    element.style.display = 'block';
     } else {
         element.style.display = 'none';
     }
 }
 
 setInterval(toggleRandomElement, 30);
+
+window.addEventListener("DOMContentLoaded", changeHeader);
 
 </Script>
     
