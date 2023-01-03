@@ -34,11 +34,14 @@ header {
 }
 
 .nav-btn {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;;
     padding: 7px 16px 9px;
+    font-weight: 400;
     font-size: 14px;
     background-color: black;
     border: none;
-    border-radius: 50px;
+    border-radius: 99em;
+    line-height: 20px;
     cursor: pointer;
     color: white;
     display: inline-block;
@@ -76,7 +79,7 @@ header {
     height: 100%;
 }
 
-h2 {
+.content-left h2 {
     font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
     font-size: 106px;
     letter-spacing: -0.05em;
@@ -85,7 +88,7 @@ h2 {
     font-weight: 400;
 }
 
-h3 {
+.content-left h3 {
     line-height: 24px;
     font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
     display: block;
@@ -199,6 +202,7 @@ h3 {
     padding: 15px 8.5%;
     margin-left: -16px;
     margin-right: -16px;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
 }
 
 .post-left-content {
@@ -212,3 +216,156 @@ h3 {
     margin: 15px;
     width: 330px;
 }
+
+.discover-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 15px 8.5%;
+    padding-top: 75px;
+    margin-left: -16px;
+    margin-right: -16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discover-right-container {
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.discover-right-container-header {
+    font-size: 12px;
+    letter-spacing: 0.083em;
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.discover-right-container-topics {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    border-bottom: 1px solid rgba(230, 230, 230, 1);
+}
+
+.topics {
+    border: 1px solid rgba(230, 230, 230, 1);
+    padding: 6px 16px;
+    margin: 0px 8px 8px 0px;
+    color: rgba(117, 117, 117, 1);
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.discover-right-container-extras {
+    display: flex;
+    flex-wrap: wrap;
+    height: 0px;
+}
+
+.extras {
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 0px 15px;
+
+}
+
+
+
+.discover-left-container {
+    display: flex;
+    width: 1500px
+}
+
+.discover-img {
+    width: 200px;
+    aspect-ratio: auto 200 / 134;
+    height: 134px;
+
+}
+
+.discover-left-container-content{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.discover-left-container-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.discover-left-container-header-img {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.discover-left-container-content h3 {
+    cursor: pointer;
+    padding-top: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(117, 117, 117, 1);
+    text-overflow: ellipsis;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.discover-left-container-content h2 {
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    max-height: 56px;
+    letter-spacing: 0;
+
+}
+
+.discover-left-container-header h4 {
+    font-size: 13px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    max-height: 16px;
+    text-overflow: ellipsis;
+    padding-left: 2px;
+}
+
+.discover-left-container-dates p {
+    margin: 8px 0px 0px;    
+}
+
+.discover-right-container-image{
+    padding-left: 50px;
+}
+
+.discover-container2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 665px;
+    padding-top: 25px;
+}
+
+.discover-left-container2{
+    display: flex;
+}
+
+
