@@ -4,7 +4,6 @@
     padding: 0%;
 }
 
-
 li, a, button {
     color: black;
     text-decoration: none;
@@ -21,6 +20,7 @@ header {
     border-bottom: solid black 1px;
     background-color: rgb(255, 193, 23);
     font-weight: 100;
+    z-index: 1;
 }
 
 #logo {
@@ -230,7 +230,6 @@ header {
 }
 
 .discover-right-container {
-    margin-right: auto;
     display: flex;
     flex-direction: column;
     margin-left: 100px;
@@ -263,7 +262,6 @@ header {
 .discover-right-container-extras {
     display: flex;
     flex-wrap: wrap;
-    height: 0px;
 }
 
 .extras {
@@ -367,5 +365,15 @@ header {
 .discover-left-container2{
     display: flex;
 }
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
 
 
